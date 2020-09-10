@@ -1,0 +1,199 @@
+# MDS setup check 1.0.0
+
+## Operating system
+ProductName:	Mac OS X
+ProductVersion:	10.15.6
+BuildVersion:	19G2021
+
+## System programs
+OK        psql (PostgreSQL) 12.4
+OK        rstudio 1.3.1091
+OK        R 4.0.2 (2020-06-22) -- "Taking Off Again"
+OK        python 3.8.3
+OK        conda 4.8.4
+OK        bash 3.2.57(1)-release (x86_64-apple-darwin19)
+OK        git 2.24.3 (Apple Git-128)
+OK        make 3.81
+OK        latex 3.14159265-2.6-1.40.21 (TeX Live 2020)
+OK        tlmgr 55369 (2020-06-01 02:32:00 +0200)
+OK        docker 19.03.12, build 48a66213fe
+OK        code 1.49.0
+
+## Python packages
+OK        jupyterlab=2.2.7
+OK        numpy=1.19.1
+OK        pandas=1.0.5
+OK        flake8=3.8.3
+OK        black=19.10b0
+OK        nodejs=10.13.0
+OK        jupytext=1.6.0
+OK        jupyterlab-git=0.21.1
+OK        jupyterlab PDF-generation was successful.
+
+## R packages
+OK        tidyverse=1.3.0
+OK        blogdown=0.20
+OK        xaringan=0.16
+OK        renv=0.12.0
+OK        IRkernel=1.1.1
+OK        tinytex=0.25
+OK        rmarkdown PDF-generation was successful.
+
+## Environmental variables
+TERM_PROGRAM=Apple_Terminal
+SHELL=/bin/bash
+TERM=xterm-color
+CLICOLOR=1
+TMPDIR=/var/folders/52/66lnz0ps3d96m2yxnjfpjsfc0000gn/T/
+CONDA_SHLVL=1
+CONDA_PROMPT_MODIFIER=(base) 
+TERM_PROGRAM_VERSION=433
+TERM_SESSION_ID=B03F6A7B-615B-432B-A565-3AEF6CC86D15
+USER=sophiabulcock
+CONDA_EXE=/Users/sophiabulcock/opt/miniconda3/bin/conda
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.hNKc8AYodC/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x52
+JPY_PARENT_PID=16684
+PAGER=cat
+_CE_CONDA=
+PATH=/Users/sophiabulcock/opt/miniconda3/bin:/Users/sophiabulcock/opt/miniconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+CONDA_PREFIX=/Users/sophiabulcock/opt/miniconda3
+PWD=/Users/sophiabulcock/Desktop/data-530-lab1-sophiabulcock
+MPLBACKEND=module://ipykernel.pylab.backend_inline
+LANG=en_CA.UTF-8
+XPC_FLAGS=0x0
+_CE_M=
+XPC_SERVICE_NAME=0
+SHLVL=3
+HOME=/Users/sophiabulcock
+CONDA_PYTHON_EXE=/Users/sophiabulcock/opt/miniconda3/bin/python
+LOGNAME=sophiabulcock
+CONDA_DEFAULT_ENV=base
+GIT_PYTHON_REFRESH=quiet
+DISPLAY=/private/tmp/com.apple.launchd.1G1WhJkr1d/org.macosforge.xquartz:0
+GIT_PAGER=cat
+_=/usr/bin/env
+
+## Content of .bash_profile
+
+# Setting PATH for Python 3.8
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+export PATH
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/sophiabulcock/opt/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/sophiabulcock/opt/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/sophiabulcock/opt/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/sophiabulcock/opt/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+
+## Content of .bashrc
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/sophiabulcock/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
